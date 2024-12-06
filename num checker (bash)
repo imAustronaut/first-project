@@ -1,0 +1,14 @@
+#!/bin/bash
+
+echo "type number 9"
+
+read num1
+
+echo "the number is:$((num1))"
+
+if [ $num1 -eq 9 ]
+then
+    echo "The number is true"
+else
+    echo "The number is false"
+fi
